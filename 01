@@ -1,0 +1,25 @@
+const int buttonPinA = 0;     // the number of the pushbutton pin
+const int buttonPinB = 1;     // the number of the pushbutton pin
+const int buttonPinC = 2;     // the number of the pushbutton pin
+const int buttonPinD = 3;     // the number of the pushbutton pin
+const int buttonPinE = 4;     // the number of the pushbutton pin
+const int buttonPinF = 5;     // the number of the pushbutton pin
+const int buttonPinG = 6;     // the number of the pushbutton pin
+
+int buttonStateA = 0;         // variable for reading the pushbutton status
+int buttonStateB = 0;
+int buttonStateC = 0;
+int buttonStateD = 0;
+int buttonStateE = 0;
+int buttonStateF = 0;
+int buttonStateG = 0;
+
+void setup() {
+  pinMode(buttonPinA, INPUT);
+  pinMode(buttonPinB, INPUT);
+  pinMode(buttonPinC, INPUT);
+  pinMode(buttonPinD, INPUT);
+  pinMode(buttonPinE, INPUT);
+  pinMode(buttonPinF, INPUT);
+  pinMode(buttonPinG, INPUT);
+}
